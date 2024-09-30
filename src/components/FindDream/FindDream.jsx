@@ -1,5 +1,5 @@
 
-import image from "../../assets/images/findDream.png";
+import image from "../../assets/images/findDream2.png";
 
 const FindDream = () => {
   return (
