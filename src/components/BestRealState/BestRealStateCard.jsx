@@ -1,7 +1,7 @@
 
 const BestRealStateCard = ({image}) => {
   return (
-    <div className="relative rounded-[5px] md:max-w-[382px] ">
+    <div className="relative rounded-[5px] w-full ">
 
       <img src={image} alt="image" className=" object-cover w-full " />
       <div className="flex items-center gap-3 text-white  text-xs absolute top-[14px] left-[14px]">

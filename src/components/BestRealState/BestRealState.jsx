@@ -59,7 +59,7 @@ const BestRealState = () => {
     
     </section>
 
-    <article className="grid grid-cols-1 justify-center  sm:grid-cols-2  md:grid-cols-3 gap-4">
+    <article className="grid grid-cols-1 justify-between  sm:grid-cols-2  md:grid-cols-[repeat(auto-fit,minmax(380px,1fr))] gap-4">
     {
         menuCategories.map((item)=>(
                 <BestRealStateCard

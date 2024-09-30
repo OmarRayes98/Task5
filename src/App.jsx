@@ -10,13 +10,17 @@ function App() {
 
   return (
     <>
+    <section className="max-w-[105rem] mx-auto">
     <Navbar/>
+
     <Hero/>
     <HowWorksSection/>
     <FindDream/>
     <MostTrendingSection/>
     <BestRealState/>
     <Footer/>
+    </section>
+
     </>
   )
 }
